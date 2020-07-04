@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Jun, 2020, 12:20:29 PM
+    Author     : Deep Kumar
+*/
+.primary-background{
+    background-color:#0099bf;
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  
+
+  /* Add the blur effect */
+   filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height:800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  z-index: 2;
+  width: 50%;
+  padding-top:20px;
+  padding-bottom:20px; 
+  padding-left:20px; 
+  
+  
+}
+
+
+
